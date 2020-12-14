@@ -16,9 +16,9 @@ arena.init(
   scene_callback
 )
 
-# TODO : Make list of all (ARENA) Users
 
-# TODO :
+# TODO : create minigame HUD
+
 
 
 # Create objects
