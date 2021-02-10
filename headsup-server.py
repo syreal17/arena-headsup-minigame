@@ -10,10 +10,7 @@ from arena import *
 
 headsup_ui_cams = list()
 
-arena = Arena( "arena.andrew.cmu.edu",
-               "realm",
-               "public",
-               "headsup-dev-17" )
+arena = Arena()
 
 
 
