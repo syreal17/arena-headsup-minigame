@@ -47,14 +47,14 @@ arena = Arena()
 
 # MAIN ------------------------------------------------------------------------
 
-@arena.run_once # make this function a task that runs once at startup
+@arena.run_once
 def main():
-    cube1 = Cube( object_id="a-cube1",
+    box1 = Box( object_id="a-box1",
                  color=Color(255, 100, 255),
-                 position=Position(0, 50, -140),
-                 scale=Scale(25, 25, 25),
-                 persist=True )
-    arena.add_object(cube1)
+                 position=Position(0, 0, 0),
+                 scale=Scale(1, 1, 1),
+                 persist=False )
+    arena.add_object(box1)
 
 
 
